@@ -1,5 +1,7 @@
 # progressive-tamvan
 
+Author: @sisinduku
+
 > A simple implementation of progressive web apps using vue js
 
 ## Build Setup
