@@ -17,13 +17,14 @@
 </template>
 
 <script>
+import db from '../assets/firebase'
 export default {
   props: ['id'],
 
   firebase: {
     cat: {
       asObject: true,
-      source: this.$db.ref('cats').child(this.id)
+      source: db.ref('cats').child(this.id)
     }
   }
 }
